@@ -1,11 +1,12 @@
-import Hero from "./components/hero"
-import Navbar from "./components/navbar"
+import Hero from "./components/blocks/hero"
+import Navbar from "./components/blocks/navbar"
+import data from "./utils/data"
 
 function App() {
   return (
     <div className=''>
       <Navbar />
-      <Hero/>
+      <Hero data={data} />
     </div>
   )
 }
